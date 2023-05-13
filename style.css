@@ -1,0 +1,37 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.nav li{
+    display: inline-block;
+}
+.nav {
+    text-align: center;
+}
+main,footer {
+    text-align: center;
+}
+h1,h2 {
+    color: brown;
+}
+#form1 {
+    display: inline-flex;
+    flex-direction: column;
+    border-width: 1px;
+    border-color: rgb(rgb(43, 0, 255), rgb(34, 146, 34), blue);
+    border-style: solid;
+    gap: 1rem;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+div {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+}
+#form2 p{
+   color: rgb(0, 68, 255);
+   text-decoration: underline;
+}
